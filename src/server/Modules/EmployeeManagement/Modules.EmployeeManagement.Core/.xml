@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Modules.EmployeeManagement.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Modules.EmployeeManagement.Core.Entities.StaffMember">
+            <summary>
+            Represent all staffs in company
+            </summary>
+        </member>
+        <member name="T:Modules.EmployeeManagement.Core.Entities.StaffTask">
+            <summary>
+            All tasks assigned to a single staff
+            </summary>
+        </member>
+    </members>
+</doc>

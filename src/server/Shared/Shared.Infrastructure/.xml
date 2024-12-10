@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shared.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:Shared.Infrastructure.Migrations.init">
+            <inheritdoc />
+        </member>
+        <member name="M:Shared.Infrastructure.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Shared.Infrastructure.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Shared.Infrastructure.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Shared.Infrastructure.Swagger.Filters.RemoveVersionFromParameterFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Shared.Infrastructure.Swagger.Filters.ReplaceVersionWithExactValueInPathFilter.Apply(Microsoft.OpenApi.Models.OpenApiDocument,Swashbuckle.AspNetCore.SwaggerGen.DocumentFilterContext)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Shared.Infrastructure.Swagger.Filters.SwaggerExcludeFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

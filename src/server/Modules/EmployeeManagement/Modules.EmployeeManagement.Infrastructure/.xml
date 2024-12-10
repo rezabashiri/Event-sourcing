@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Modules.EmployeeManagement.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:Modules.EmployeeManagement.Infrastructure.Migrations.init">
+            <inheritdoc />
+        </member>
+        <member name="M:Modules.EmployeeManagement.Infrastructure.Migrations.init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Modules.EmployeeManagement.Infrastructure.Migrations.init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Modules.EmployeeManagement.Infrastructure.Migrations.init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

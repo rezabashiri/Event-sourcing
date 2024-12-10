@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Modules.Accounting.Domain</name>
+    </assembly>
+    <members>
+        <member name="M:Modules.Accounting.Domain.Abstractions.AccountTransactionEventBase.#ctor(System.Decimal,System.Guid)">
+            <summary>
+                To create base event
+            </summary>
+            <param name="amount">transaction amount</param>
+            <param name="aggregateId">Use account id as aggregateid</param>
+        </member>
+        <member name="M:Modules.Accounting.Domain.Entities.Account.#ctor">
+            <summary>
+                For ef core
+            </summary>
+        </member>
+    </members>
+</doc>

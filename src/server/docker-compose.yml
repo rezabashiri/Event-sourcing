@@ -1,0 +1,37 @@
+﻿services:
+  bootstrapper:
+    image: bootstrapper
+    build:
+      context: .
+      dockerfile: API/Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Dockerized
+      - ASPNETCORE_URLS=http://+:80
+    depends_on:
+      - postgres-db
+
+  postgres-db:
+    image: postgres:15
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: Bank
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+volumes:
+  postgres-data:

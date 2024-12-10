@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Modules.Accounting.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:Modules.Accounting.Infrastructure.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:Modules.Accounting.Infrastructure.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Modules.Accounting.Infrastructure.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Modules.Accounting.Infrastructure.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
